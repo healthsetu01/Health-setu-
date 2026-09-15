@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthSetu — Connects You to Wellness</title>
+  <meta name="description" content="A youth-friendly community health bridge connecting people with healthcare awareness, workshops, campaigns, and vital resources.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- STICKY HEADER / NAVIGATION -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Health Setu Home">
+        <img src="images/hero-logo.png" alt="Health Setu Logo" id="logo-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'140\' height=\'40\' viewBox=\'0 0 140 40\'><text x=\'10\' y=\'25\' fill=\'%230D9488\' font-family=\'sans-serif\' font-weight=\'bold\' font-size=\'18\'>HealthSetu</text></svg>';">
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#story" class="nav-link">Our Story</a></li>
+          <li><a href="#events" class="nav-link">Events</a></li>
+          <li><a href="#workshops" class="nav-link">Workshops</a></li>
+          <li><a href="#partners" class="nav-link">Partners</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
+        </ul>
+        <a href="#join" class="nav-cta btn btn-primary">Join Us &rarr;</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="hero-bg-shape blob-1"></div>
+      <div class="hero-bg-shape blob-2"></div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="bridge-icon" aria-hidden="true">&#9829;</span> Community Health &amp; Awareness
+          </div>
+          <h1 class="hero-title">
+            Connecting People with <span class="highlight-teal">Better Health</span> &amp; <span class="highlight-soft">Awareness</span>
+          </h1>
+          <p class="hero-sub">
+            Health Setu acts as a vital bridge for youth and local communities, empowering individuals with health literacy, wellness workshops, and accessible health drives.
+          </p>
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary">Explore Our Mission</a>
+            <a href="#join" class="btn btn-secondary">Get Involved</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Youth &amp; Community Focused</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">Bridge</span>
+              <span class="stat-label">To Healthcare Literacy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card-wrapper">
+            <img src="images/bridge-concept.svg" alt="Health Setu Community Concept Illustration" class="hero-img" onerror="this.onerror=null; this.parentNode.innerHTML='<div class=\'placeholder-hero-graphic\'><div class=\'graphic-circle\'></div><div class=\'graphic-bridge\'></div><p>Health Setu Bridge Concept</p></div>';">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-label">What We Do</span>
+          <h2 class="section-title">Bridging the Gap in <span class="underline-teal">Community Wellness</span></h2>
+          <p class="section-sub">Health Setu is built to provide simple, reliable, and compassionate health education directly to the public.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="about-card-icon ic-teal" aria-hidden="true">&#127891;</div>
+              <div>
+                <h3>Health Literacy &amp; Education</h3>
+                <p>Demystifying preventative health, mental well-being, and hygiene practices through peer-to-peer discussions and youth engagement.</p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon ic-mint" aria-hidden="true">&#129309;</div>
+              <div>
+                <h3>Community Outreach</h3>
+                <p>Organizing ground-level drives, health screening campaigns, and collaborative events with local partner organizations.</p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon ic-sky" aria-hidden="true">&#128156;</div>
+              <div>
+                <h3>Resource Accessibility</h3>
+                <p>Serving as an open bridge connecting individuals with actionable health guidance, professional expertise, and aid.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mission-box">
+            <span class="mission-tag">Core Mission Statement</span>
+            <p>"To create an empathetic, accessible health network that turns healthcare awareness into everyday community action."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY SECTION -->
+    <section id="story" class="story-section">
+      <div class="container">
+        <div class="story-layout">
+          <div class="story-text">
+            <span class="section-label">Our Journey</span>
+            <h2 class="section-title">Why Health Setu Was Created</h2>
+            <p>Healthcare information is often fragmented, overly technical, or inaccessible to youth and local communities. <strong>Health Setu was founded to change that trajectory.</strong></p>
+            <p>By transforming clinical advice into approachable, friendly, and practical guidance, we serve as a trustful link between healthcare knowledge and everyday people.</p>
+
+            <div class="mv-grid">
+              <div class="mv-card mv-mission">
+                <h4>Our Mission</h4>
+                <p>Empower youth and communities with health literacy, proactive prevention habits, and equal access to guidance.</p>
+              </div>
+              <div class="mv-card mv-vision">
+                <h4>Our Vision</h4>
+                <p>A society where health awareness is seamlessly integrated into every neighborhood and home.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="story-quote-card">
+            <div class="story-quote">
+              <p>Health Setu isn't just an initiative — it's a living <span class="q-accent">bridge of care</span> connecting awareness with action.</p>
+              <div class="story-pills">
+                <span class="pill">Youth Led</span>
+                <span class="pill">Community First</span>
+                <span class="pill">Empathetic Care</span>
+                <span class="pill">Open Access</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS SECTION -->
+    <section id="events" class="events-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Impact &amp; Outreach</span>
+          <h2 class="section-title">Community <span>Drives &amp; Events</span></h2>
+          <p class="section-sub">Take a look at our ground activities, campaigns, and interactive health awareness drives.</p>
+        </div>
+
+        <div class="events-info">
+          <div class="events-gallery-wrap">
+            <div class="photo-gallery-box">
+              <div class="gallery-main">
+                <img id="main-gallery-img" src="images/campaigns/drive-main.jpg" alt="Health Setu Community Health Drive" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'100%\' height=\'100%\' fill=\'%23CCFBF1\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%230D9488\' font-size=\'20\'>Community Drive Main Photo</text></svg>';">
+              </div>
+              <div class="gallery-thumbs">
+                <button class="thumb active" data-full="images/campaigns/drive-main.jpg" aria-label="View photo 1">
+                  <img src="images/campaigns/drive-main.jpg" alt="Health drive preview 1" onerror="this.onerror=null; this.parentNode.innerHTML='Thumb 1';">
+                </button>
+                <button class="thumb" data-full="images/campaigns/drive-thumb-1.jpg" aria-label="View photo 2">
+                  <img src="images/campaigns/drive-thumb-1.jpg" alt="Health drive preview 2" onerror="this.onerror=null; this.parentNode.innerHTML='Thumb 2';">
+                </button>
+                <button class="thumb" data-full="images/campaigns/drive-thumb-2.jpg" aria-label="View photo 3">
+                  <img src="images/campaigns/drive-thumb-2.jpg" alt="Health drive preview 3" onerror="this.onerror=null; this.parentNode.innerHTML='Thumb 3';">
+                </button>
+                <button class="thumb" data-full="images/campaigns/drive-thumb-3.jpg" aria-label="View photo 4">
+                  <img src="images/campaigns/drive-thumb-4.jpg" alt="Health drive preview 4" onerror="this.onerror=null; this.parentNode.innerHTML='Thumb 4';">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="events-details">
+            <span class="drive-badge">Featured Campaign</span>
+            <h3 class="drive-title">Grassroots Health <span>Screening &amp; Awareness</span></h3>
+            <p class="drive-desc">
+              Our active outreach efforts focus on bringing health education, basic health parameter checks, and preventative care knowledge directly to local community members.
+            </p>
+
+            <div class="drive-meta">
+              <div class="meta-item">
+                <span class="meta-label">Focus Area</span>
+                <span class="meta-value">Preventative &amp; Primary Health</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Audience</span>
+                <span class="meta-value">Youth &amp; Local Families</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Format</span>
+                <span class="meta-value">Interactive Booths &amp; Camps</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Participation</span>
+                <span class="meta-value">Open to Public</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="impact-strip">
+          <div class="impact-card">
+            <div class="impact-icon" aria-hidden="true">&#129309;</div>
+            <h4>Youth Engagement</h4>
+            <p>Encouraging young leaders to advocate for health in their neighborhoods.</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon" aria-hidden="true">&#128218;</div>
+            <h4>Actionable Learning</h4>
+            <p>Simple tools and guidance for daily wellness and mental well-being.</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon" aria-hidden="true">&#127775;</div>
+            <h4>Trusted Network</h4>
+            <p>Collaborating with local healthcare advocates and mentors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKSHOPS SECTION -->
+    <section id="workshops" class="workshops-section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-label">Capacity Building</span>
+          <h2 class="section-title">Educational <span>Workshops</span></h2>
+          <p class="section-sub">Interactive learning sessions designed to build real-world health awareness and response skills.</p>
+        </div>
+
+        <div class="workshops-container">
+          <!-- Workshop Item 1 -->
+          <article class="workshop-card">
+            <div class="workshop-photo-wrap">
+              <img src="images/workshops/ws-1.jpg" alt="Youth Health & Hygiene Workshop" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'500\' height=\'350\' viewBox=\'0 0 500 350\'><rect width=\'100%\' height=\'100%\' fill=\'%23EDE9FE\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%237C3AED\' font-size=\'18\'>Workshop Photo 1</text></svg>';">
+              <div class="small-photo-row">
+                <div class="small-photo-thumb">
+                  <img src="images/workshops/ws-1-thumb-1.jpg" alt="Workshop session visual 1" class="lightbox-trigger" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\'><rect width=\'100%\' height=\'100%\' fill=\'%23CCFBF1\'/></svg>';">
+                </div>
+                <div class="small-photo-thumb">
+                  <img src="images/workshops/ws-1-thumb-2.jpg" alt="Workshop session visual 2" class="lightbox-trigger" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\'><rect width=\'100%\' height=\'100%\' fill=\'%23BAE6FD\'/></svg>';">
+                </div>
+              </div>
+            </div>
+
+            <div class="workshop-content">
+              <div class="workshop-topics">
+                <span class="topic-chip">Health Literacy</span>
+                <span class="topic-chip">Preventative Care</span>
+                <span class="topic-chip">Interactive Session</span>
+              </div>
+              <h3>Community Health &amp; Preventative Care Session</h3>
+              <ul class="workshop-highlights">
+                <li>Practical knowledge on early symptom recognition and basic hygiene.</li>
+                <li>Interactive Q&amp;A sessions addressing common health myths and stigma.</li>
+                <li>Hands-on guidance for navigating public health resources effectively.</li>
+              </ul>
+              <div class="workshop-reflection">
+                <strong>Key Takeaway:</strong> Creating comfortable spaces where individuals feel confident discussing personal wellness without hesitation.
+              </div>
+            </div>
+          </article>
+
+          <!-- Workshop Item 2 -->
+          <article class="workshop-card">
+            <div class="workshop-photo-wrap">
+              <img src="images/workshops/ws-2.jpg" alt="Mental Health & Youth Wellness Workshop" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'500\' height=\'350\' viewBox=\'0 0 500 350\'><rect width=\'100%\' height=\'100%\' fill=\'%23CCFBF1\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%230D9488\' font-size=\'18\'>Workshop Photo 2</text></svg>';">
+            </div>
+
+            <div class="workshop-content">
+              <div class="workshop-topics">
+                <span class="topic-chip">Mental Wellness</span>
+                <span class="topic-chip">Youth Advocacy</span>
+                <span class="topic-chip">Peer Support</span>
+              </div>
+              <h3>Youth Mental Well-being &amp; Peer Support</h3>
+              <ul class="workshop-highlights">
+                <li>Understanding stress management and emotional well-being fundamentals.</li>
+                <li>Building peer-support frameworks to assist friends and family members.</li>
+                <li>Connecting youth with professional counseling and mental health services.</li>
+              </ul>
+              <div class="workshop-reflection">
+                <strong>Key Takeaway:</strong> Mental health is an integral part of overall health that deserves equal attention and open discourse.
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS SECTION -->
+    <section id="partners" class="partners-section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-label">Collaborations</span>
+          <h2 class="section-title">Our Valued <span>Partners</span></h2>
+          <p class="section-sub">Working alongside dedicated community organizations to amplify our reach and impact.</p>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-logo-box">
+            <img src="images/partners/partner-main.jpg" alt="Partner Organization Logo" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'120\' height=\'120\' viewBox=\'0 0 120 120\'><rect width=\'100%\' height=\'100%\' fill=\'%237C3AED\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%23FFFFFF\' font-size=\'14\'>Partner Logo</text></svg>';">
+          </div>
+
+          <div class="partner-info">
+            <span class="collab-badge">Featured Partner</span>
+            <h3 class="partner-name">Community Health Allies</h3>
+            <p class="partner-tagline">Joint Initiative for Grassroots Awareness</p>
+            <p class="partner-desc">
+              Together with our alliance partners, we co-host awareness workshops, distribute educational materials, and coordinate local volunteer networks to make health information easily accessible.
+            </p>
+            <div class="partner-actions">
+              <a href="#join" class="partner-btn pb-primary">Partner With Us</a>
+              <a href="#story" class="partner-btn pb-secondary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="collab-strip">
+          <div class="collab-logos">
+            <div class="collab-logo-sm">
+              <img src="images/hero-logo.png" alt="Health Setu" onerror="this.onerror=null; this.parentNode.innerHTML='HealthSetu';">
+            </div>
+            <span class="collab-x">&times;</span>
+            <div class="collab-logo-sm">
+              <img src="images/partners/partner-collab-1.jpg" alt="Alliance Partner" onerror="this.onerror=null; this.parentNode.innerHTML='Partner';">
+            </div>
+          </div>
+          <div class="collab-text">
+            Stronger Together for Public Health
+            <span>Collaborative community initiatives across healthcare awareness.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section id="team" class="team-section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-label">Behind Health Setu</span>
+          <h2 class="section-title">Meet Our <span>Team</span></h2>
+          <p class="section-sub">Passionate individuals dedicated to bridging health literacy and community care.</p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="images/team/team-1.jpg" al
